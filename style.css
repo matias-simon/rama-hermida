@@ -196,6 +196,7 @@
   .contact-form .input-text.not-empty + .label {
     -webkit-transform: translateY(-24px);
             transform: translateY(-24px);
+            color:#fafafa
   }
   .contact-form .label {
     position: absolute;
@@ -222,4 +223,9 @@
     border: none;
     width:200px;
     cursor: pointer;
+    transition: background-color 0.4s;
   }
+  .submit-btn:hover {
+    background-color: #fafafa;
+    color: #000;
+    }
