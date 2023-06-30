@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --main-color: #316B83;
+    --main-color-gris: #6D8299;
+    --verde: #8CA1A5;
+    --crema-claro:213, 191, 191;
+    --font-main:'Lexend Peta', sans-serif;
+    --font-secondary:'Orbit', sans-serif;
+
+}
+
+.navbar{
+    background-color: rgba(51, 51, 51, 0.3);
+    position: fixed;
+    width: 100vw;
+    font-family: var(--font-main);
+    z-index: 9999;
+    
+}
+.logo{
+    width: 35%;   
+}
+.nav-item{
+    text-align: right;
+}
+.nav-link{
+    color: #fafafa;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+}
+.nav-link:first-child:hover{
+    color: #b3b3b3;
+}
+.nav-link:last-child:hover{
+    color: #b3b3b3;
+}
+#nav-youtube:hover{
+    color: #FF0000;
+}
+#nav-spotify:hover{
+    color: #1DB954;
+}
+.main-section{
+    background-image: url(./IMG/portada.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+   
+}
+.scrible{
+    position: absolute;
+    bottom: -47px;
+    width: 15%;
+    left: -50px;  
+}
+.scrible2{
+    top: -80%;
+    right: 40%;
+    width: 15%;
+    transform: rotate(15deg);
+}
+
+#youtube{
+    background-image: url(./IMG/fondo-youtube.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.youtube-right{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.youtube-right h1{
+    font-family: var(--font-main);
+    color: #FF0000;
+    font-size: 6rem;
+    text-decoration: underline;
+}
+.youtube-right p{
+    font-family: var(--font-secondary);
+    color: #fafafa;
+}
