@@ -23,7 +23,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
           <a class="navbar-brand" href="#"
             ><img class="logo" src="./IMG/logo-white.png" alt=""
@@ -48,7 +48,7 @@
                 <a class="nav-link" id="nav-youtube" href="#youtube">Youtube</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="nav-spotify" href="#">Spotify</a>
+                <a class="nav-link" id="nav-spotify" href="#spotify">Spotify</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contacto</a>
@@ -61,17 +61,21 @@
 
     <main>
       <section class="main-section">
-        <img class= "scrible" src="./IMG/scrible2.png" alt="cosita loca">
+        <img class="img-portada" src="./IMG/portada.png" alt="" />
+        <img class="scrible" src="./IMG/scrible2.png" alt="cosita loca" />
       </section>
 
       <section id="youtube">
-        <div class="container position-relative ">
-          <div class="row">
-            <div class="col-md-6">
-              <img class= "scrible2 position-absolute" src="./IMG/scrible2.png" alt="cosita loca">
+        <div class="container position-relative">
+          <div class="row youtube-container">
+            <div class="col-md-6 youtube-right">
+              <img
+                class="scrible2 position-absolute"
+                src="./IMG/scrible2.png"
+                alt="cosita loca"
+              />
               <iframe
-                width="560"
-                height="315"
+                class="video"
                 src="https://www.youtube.com/embed/videoseries?list=PLl2KfV4_dy0s3nR7Qz2k3s9B5KHKgmbJP"
                 title="YouTube video player"
                 frameborder="0"
@@ -82,6 +86,34 @@
             <div class="col-md-6 youtube-right">
               <h1>Youtube</h1>
               <p>Mis Trabajos en Youtube</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="spotify">
+        <div class="container">
+          <div class="row position-relative">
+            <div class="col-md-6 spotify-left">
+              <img
+                class="scrible3 position-absolute"
+                src="./IMG/scrible2.png"
+                alt="cosita loca"
+              />
+              <h1>Spotify</h1>
+              <p>Escucha mis mezclas!!</p>
+            </div>
+            <div class="col-md-6 spotify-right">
+              <iframe
+                style="border-radius: 12px"
+                src="https://open.spotify.com/embed/artist/4pejUc4iciQfgdX6OKulQn?utm_source=generator&theme=0"
+                width="100%"
+                height="352"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
             </div>
           </div>
         </div>
