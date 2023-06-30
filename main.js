@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let formMessage = document.getElementById("form-message");
   
     navContact.innerHTML = "Contact";
-    youtubeP.innerHTML = "My work on Youtube";
-    spotifyP.innerHTML = "Check out my mixes!";
+    youtubeP.innerHTML = "My work on Youtube!!";
+    spotifyP.innerHTML = "Check out my mixes!!";
     formh1.innerHTML = "Get in Touch";
     formName.innerHTML = "Name";
     phone.innerHTML = "Phone";
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let formMessage = document.getElementById("form-message");
   
     navContact.innerHTML = "Contacto";
-    youtubeP.innerHTML = "Mis Trabajos en Youtube";
+    youtubeP.innerHTML = "Mis Trabajos en Youtube!!";
     spotifyP.innerHTML = "Escucha mis mezclas!!";
     formh1.innerHTML = "Contactate";
     formName.innerHTML = "Nombre";
