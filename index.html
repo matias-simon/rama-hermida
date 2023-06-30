@@ -51,8 +51,12 @@
                 <a class="nav-link" id="nav-spotify" href="#spotify">Spotify</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
+                <a class="nav-link" href="#contacto" id="navContact">Contacto</a>
               </li>
+              <div class="form-check form-switch">
+                <input type="checkbox" class="form-check-input" id="englishToggle">
+                <label class="custom-control-label" for="english">English</label>
+              </div> 
             </ul>
           </div>
         </div>
@@ -85,7 +89,7 @@
             </div>
             <div class="col-md-6 youtube-right">
               <h1>Youtube</h1>
-              <p>Mis Trabajos en Youtube</p>
+              <p id="youtubeP">Mis Trabajos en Youtube</p>
               <img
                 class="scrible3 position-absolute"
                 src="./IMG/scrible2.png"
@@ -106,7 +110,7 @@
                 alt="cosita loca"
               />
               <h1>Spotify</h1>
-              <p>Escucha mis mezclas!!</p>
+              <p id="spotifyP">Escucha mis mezclas!!</p>
             </div>
             <div class="col-md-6 spotify-right">
               <iframe
@@ -129,7 +133,7 @@
           <div class="row">
             <div class="col">
               <section class="get-in-touch">
-                <h1 class="title">Contactate</h1>
+                <h1 id="form-h1" class="title">Contactate</h1>
                 <form class="contact-form row" method="post" action="/submit">
                   <div class="form-field col-lg-6">
                     <input
@@ -138,7 +142,7 @@
                       type="text"
                       required
                     />
-                    <label class="label" for="name">Nombre</label>
+                    <label id="form-name" class="label" for="name">Nombre</label>
                   </div>
                   <div class="form-field col-lg-6">
                     <input
@@ -156,15 +160,15 @@
                       type="text"
                       required
                     />
-                    <label class="label" for="phone">Nro de Contacto</label>
+                    <label id="form-phone" class="label" for="phone">Nro de Contacto</label>
                   </div>
                   <div class="form-field col-lg-12">
                     <textarea class="input-text js-input" name="message" id="message" cols="30" rows="50" ></textarea>
                     
-                    <label class="label" for="message">Mensaje</label>
+                    <label id="form-message" class="label" for="message">Mensaje</label>
                   </div>
                   <div class="form-field col-lg-12 ">
-                    <input class="submit-btn" type="submit" value="Enviar" />
+                    <button id="form-btn" class="submit-btn" type="submit">Enviar</button>
                   </div>
                 </form>
               </section>
@@ -180,5 +184,6 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="./main.js"></script>
   </body>
 </html>

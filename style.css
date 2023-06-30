@@ -29,6 +29,9 @@
   margin: 10px;
   cursor: pointer;
 }
+.form-check-label{
+    color: #fff;
+}
 
 #nav-youtube:hover {
   color: #ff0000;
@@ -223,4 +226,8 @@
   .submit-btn:hover {
     background-color: #fafafa;
     color: #000;
+    }
+
+    .form-switch{
+        color: #fafafa;
     }
