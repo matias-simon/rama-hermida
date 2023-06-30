@@ -29,12 +29,7 @@
   margin: 10px;
   cursor: pointer;
 }
-.nav-link:first-child:hover {
-  color: #b3b3b3;
-}
-.nav-link:last-child:hover {
-  color: #b3b3b3;
-}
+
 #nav-youtube:hover {
   color: #ff0000;
 }
