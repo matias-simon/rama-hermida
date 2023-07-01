@@ -149,6 +149,12 @@
   left: 0px;
   width: 15%;
 }
+.scrible5 {
+    width: 15%;
+    top: -20%;
+    left: 15%;
+    
+}
 
 #contacto{
     background-image: url(./IMG/fondo-youtube.png);
