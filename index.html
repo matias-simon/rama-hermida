@@ -149,6 +149,7 @@
 
                   
                   <div class="form-field col-lg-6">
+                    <label id="form-name" class="form-label" for="name">Nombre</label>
                     <input
                       id="name"
                       class="input-text js-input"
@@ -156,32 +157,33 @@
                       name="name"
                       required
                     />
-                    <label id="form-name" class="label" for="name">Nombre</label>
                   </div>
                   <div class="form-field col-lg-6">
+                    <label class="form-label" for="email">E-mail</label>
                     <input
                       id="email"
                       class="input-text js-input"
                       type="email"
                       name="email"
                       required
-                    />
-                    <label class="label" for="email">E-mail</label>
+                    /> 
                   </div>
                   <div class="form-field col-lg-6">
+                    <label  id="form-phone" class="form-label" for="phone">Nro de Contacto</label>
                     <input
                       id="phone"
                       class="input-text js-input"
-                      type="text"
+                      type="number"
                       name="phone"
-                      required
+                      
                     />
-                    <label id="form-phone" class="label" for="phone">Nro de Contacto</label>
+                    
                   </div>
                   <div class="form-field col-lg-12">
-                    <textarea class="input-text js-input" name="message" id="message" cols="30" rows="50" ></textarea>
+                    <label id="form-message" class="form-label" for="message">Mensaje</label>
+                    <textarea class="input-text js-input" name="message" id="message" cols="30" rows="50" required></textarea>
                     
-                    <label id="form-message" class="label" for="message">Mensaje</label>
+                    
                   </div>
                   <div class="form-field col-lg-12 ">
                     <button id="form-btn" class="submit-btn" type="submit">Enviar</button>

@@ -193,29 +193,10 @@
     line-height: 26px;
     font-weight: 400;
   }
-  .contact-form .input-text:focus {
-    outline: none;
+  .form-label{
+    color: #fafafa;
   }
-  .contact-form .input-text:focus + .label,
-  .contact-form .input-text.not-empty + .label {
-    -webkit-transform: translateY(-24px);
-            transform: translateY(-24px);
-            color:#fafafa
-  }
-  .contact-form .label {
-    position: absolute;
-    left: 20px;
-    bottom: 11px;
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 400;
-    color: #333;
-    cursor: text;
-    transition: -webkit-transform .2s ease-in-out;
-    transition: transform .2s ease-in-out;
-    transition: transform .2s ease-in-out, 
-    -webkit-transform .2s ease-in-out;
-  }
+
   .contact-form .submit-btn {
     display: inline-block;
     background-color: #000;
