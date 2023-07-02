@@ -9,7 +9,7 @@
   --font-main: "Lexend Peta", sans-serif;
   --font-secondary: "Orbit", sans-serif;
 }
-.container-nav{
+.container-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -54,9 +54,6 @@
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28250, 250, 250, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-.switch {
-  margin-left: auto;
-}
 
 .main-section {
   position: relative;
@@ -85,7 +82,7 @@
 .logo-pic {
   margin-top: 10%;
   height: auto;
-  width: 100%;
+  width: 80%;
   object-fit: cover;
   object-position: center center;
 }
@@ -97,26 +94,31 @@
   left: -5%;
 }
 .scrible2 {
-  top: -50%;
+  top:-5%;
   right: 40%;
   width: 15%;
   transform: rotate(15deg);
 }
 
 #youtube {
-  background-image: url(./IMG/fondo-youtube.png);
-  background-size: 100%;
+  background-image: url(./IMG/black-background.png);
+  background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
 }
+
 .youtube-container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.youtube-row {
+  min-height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .youtube-left {
   text-align: center;
   display: flex;
@@ -153,40 +155,51 @@
   width: 15%;
 }
 
-#spotify {
-  background-image: url(./IMG/fondo-youtube.png);
-  background-size: 100%;
+#spotify{
+  background-image: url(./IMG/black-background.png);
+  background-size: cover;
   background-repeat: no-repeat;
+}
+.spotify-container {
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.spotify-row{
+  min-height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  
 }
 .spotify-left {
-  min-height: 100vh;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 .spotify-left h1 {
   font-family: var(--font-main);
   color: #1db954;
-  font-size: 6rem;
+  font-size: 8vw;
   text-decoration: underline;
 }
 .spotify-left p {
   font-family: var(--font-secondary);
   color: #fafafa;
+  text-align: center;
 }
 
 .spotify-right {
-  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
-
 .scrible4 {
   position: absolute;
   top: 0px;
@@ -199,10 +212,14 @@
   left: 15%;
 }
 
-#contacto {
-  background-image: url(./IMG/fondo-youtube.png);
-  background-size: 100%;
+#contacto{
+  background-image: url(./IMG/black-background.png);
+  background-size: cover;
   background-repeat: no-repeat;
+}
+.contacto-container {
+  min-height: 100vh;
+
 }
 
 .get-in-touch {
@@ -214,7 +231,7 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 3.2em;
+  font-size: 7vw;
   line-height: 48px;
   padding-bottom: 48px;
   color: #fafafa;
@@ -260,37 +277,42 @@
   color: #fafafa;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .navbar {
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
-  .container-nav{
+  .container-nav {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .navbar-brand{
+  .navbar-brand {
     display: flex;
     align-items: center;
     justify-content: center;
-    
   }
   .navbar-toggler {
     order: -1;
   }
-  .nav-link{
+  .nav-link {
     text-align: left;
   }
-  .logo{
+  .logo {
     width: 40%;
   }
+
 }
 
 @media screen and (max-width: 768px) {
-  .nav-link{
+  .container-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav-link {
     text-align: left;
   }
   .main-section {
@@ -301,7 +323,7 @@
   }
 
   .logo {
-    width: 60%;
+    width: 50%;
   }
 
   .navbar {
@@ -310,7 +332,7 @@
     align-items: center;
     justify-content: space-around;
   }
-  .navbar-brand{
+  .navbar-brand {
     margin-left: auto;
     margin-right: auto;
   }
@@ -344,8 +366,13 @@
   .scrible2 {
     top: -30%;
   }
-  .youtube-container {
+  .youtube-row {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
   }
   .youtube-left {
     width: 100vw;
@@ -355,7 +382,7 @@
     margin-bottom: 15%;
   }
   .youtube-right h1 {
-    font-size: 10vw;
+    font-size: 15vw;
   }
   .video {
     width: 100%;
@@ -366,5 +393,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .spotify-left h1{
+    font-size: 15vw;
   }
 }
