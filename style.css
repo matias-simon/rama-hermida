@@ -94,7 +94,7 @@
   left: -5%;
 }
 .scrible2 {
-  top:-5%;
+  top: -5%;
   right: 40%;
   width: 15%;
   transform: rotate(15deg);
@@ -107,9 +107,9 @@
 }
 
 .youtube-container {
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .youtube-row {
   min-height: 100vh;
@@ -142,8 +142,9 @@ justify-content: center;
 .youtube-right h1 {
   font-family: var(--font-main);
   color: #ff0000;
-  font-size: 7vw;
+  font-size: 6vw;
   text-decoration: underline;
+  text-align: right;
 }
 .youtube-right p {
   font-family: var(--font-secondary);
@@ -155,23 +156,22 @@ justify-content: center;
   width: 15%;
 }
 
-#spotify{
+#spotify {
   background-image: url(./IMG/black-background.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .spotify-container {
   display: flex;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-.spotify-row{
+.spotify-row {
   min-height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .spotify-left {
   text-align: center;
@@ -184,7 +184,7 @@ justify-content: center;
 .spotify-left h1 {
   font-family: var(--font-main);
   color: #1db954;
-  font-size: 8vw;
+  font-size: 6vw;
   text-decoration: underline;
 }
 .spotify-left p {
@@ -212,14 +212,13 @@ justify-content: center;
   left: 15%;
 }
 
-#contacto{
+#contacto {
   background-image: url(./IMG/black-background.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .contacto-container {
   min-height: 100vh;
-
 }
 
 .get-in-touch {
@@ -303,7 +302,6 @@ justify-content: center;
   .logo {
     width: 40%;
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -394,7 +392,18 @@ justify-content: center;
     align-items: center;
     justify-content: center;
   }
-  .spotify-left h1{
+  .spotify-left h1 {
     font-size: 15vw;
+  }
+  .scrible5 {
+    width: 15%;
+    top: 10%;
+    left: 15%;
+  }
+  .scrible2{
+    top: -5%;
+  right: 40%;
+  width: 15%;
+  transform: rotate(15deg);
   }
 }
