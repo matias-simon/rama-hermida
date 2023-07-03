@@ -11,10 +11,7 @@
   --nav-height: 86vh;
 }
 .body {
-  background-image: url(./IMG/black-background.png);
-  background-size: cover;
-  width: 100%;
-  height: auto;
+  padding-top:calc(100vh - var(--nav-height));
 }
 
 .container-nav {
@@ -64,6 +61,9 @@
 }
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28250, 250, 250, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.switch{
+  cursor: pointer;
 }
 
 .main-section {
