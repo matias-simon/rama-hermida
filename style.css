@@ -256,6 +256,7 @@
   margin: 32px 0;
 }
 .contact-form .input-text {
+  color: #fafafa;
   display: block;
   width: 100%;
   height: 36px;
@@ -270,6 +271,7 @@
 }
 
 .contact-form .submit-btn {
+  text-align: center;
   display: inline-block;
   background-color: #000;
   color: #fff;
@@ -281,10 +283,6 @@
   width: 200px;
   cursor: pointer;
   transition: background-color 0.4s;
-}
-.submit-btn:hover {
-  background-color: #fafafa;
-  color: #000;
 }
 
 .form-switch {
