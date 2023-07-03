@@ -233,6 +233,7 @@ main {
 }
 .contacto-container {
   min-height: var(--nav-height);
+  padding-top: calc(100vh- var(--nav-height));
 }
 
 .get-in-touch {
