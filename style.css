@@ -225,12 +225,20 @@
   background-image: url(./IMG/black-background.png);
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
 .contacto-container {
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .get-in-touch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   max-width: 800px;
   margin: 50px auto;
   position: relative;
