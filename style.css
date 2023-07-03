@@ -431,7 +431,7 @@
   }
   .scrible5 {
     width: 15%;
-    top: 15%;
+    top: 8%;
     left: 15%;
   }
   .scrible2 {
@@ -452,8 +452,8 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.42vw;
-    font-size: 14vw;
-    line-height: 6.67vw;
+    font-size: 12vw;
+    /* line-height: 6.67vw; */
     padding-bottom: 6.67vw;
     color: #fafafa;
   }
