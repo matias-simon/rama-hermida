@@ -10,7 +10,7 @@
   --font-secondary: "Orbit", sans-serif;
   --nav-height: 86vh;
 }
-.body {
+main {
   padding-top:calc(100vh - var(--nav-height));
 }
 
@@ -73,7 +73,6 @@
   background-size: cover;
   background-position: center center;
   min-height: var(--nav-height);
-  margin-top: calc(100vh - var(--nav-height));
 }
 .main-left,
 .main-right {
@@ -123,7 +122,7 @@
   justify-content: center;
 }
 .youtube-row {
-  min-height: 100vh;
+  min-height: var(--nav-height);
   width: 100vw;
   display: flex;
   align-items: center;
@@ -178,7 +177,7 @@
   justify-content: center;
 }
 .spotify-row {
-  min-height: 100vh;
+  min-height: var(--nav-height);
   width: 100vw;
   display: flex;
   align-items: center;
@@ -334,7 +333,7 @@
     background-image: url(./IMG);
     background-size: cover;
     background-position: center center;
-    min-height: 100vh;
+    min-height: var(--nav-height);
   }
 
   .logo {
@@ -360,7 +359,7 @@
   }
   .row-mobile {
     display: flex;
-    min-height: 100vh;
+    min-height: var(--nav-height);
   }
   .col-main-mobile {
     background-image: url(./IMG/black-background.png);
@@ -395,7 +394,7 @@
     top: -30%;
   }
   .youtube-row {
-    min-height: 100vh;
+    min-height: var(--nav-height);
     width: 100vw;
     display: flex;
     flex-direction: column-reverse;
