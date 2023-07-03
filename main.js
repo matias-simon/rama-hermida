@@ -1,4 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
+  
+  // document.documentElement.style.setProperty('--nav-height', document.getElementById("navbar").offsetHeight);
+
+
     const englishToggle = document.getElementById("englishToggle");
     const htmlElement = document.getElementsByTagName("html")[0];
   
