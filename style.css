@@ -353,8 +353,17 @@
     justify-content: center;
     align-items: center;
   }
+  .mobile-main{
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+  }
   .logo-mobile {
     width: 80%;
+    position: absolute;
+    z-index: 1;
+    filter: drop-shadow(-9px 0px 26px #000);
+    
   }
   .rama-pic {
     height: 100vh;
