@@ -372,7 +372,7 @@ main {
   }
   .mobile-main {
     object-fit: cover;
-    height: 100vh;
+    min-height: var(--nav-height);
     width: 100%;
   }
   .logo-mobile {
@@ -387,7 +387,7 @@ main {
     filter: drop-shadow(-9px 0px 15px #000);
   }
   .rama-pic {
-    height: 100vh;
+    min-height: var(--nav-height);
     object-fit: cover;
     width: 100%;
   }
@@ -395,7 +395,7 @@ main {
     top: -30%;
   }
   .youtube-row {
-    min-height: var(--nav-height);
+    min-height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column-reverse;
@@ -436,4 +436,5 @@ main {
     width: 15%;
     transform: rotate(15deg);
   }
+  
 }
