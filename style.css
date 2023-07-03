@@ -228,6 +228,7 @@
   
 }
 .contacto-container {
+  padding-top: 9vh;
   min-height: 100vh;
   display: flex;
   align-items: center;
