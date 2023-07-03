@@ -201,6 +201,9 @@
   justify-content: center;
   height: 100%;
 }
+.spotify-player{
+  height: 65vh;
+}
 .scrible4 {
   position: absolute;
   top: 0px;
