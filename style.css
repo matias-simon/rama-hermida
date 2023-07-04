@@ -229,7 +229,7 @@
 }
 .contacto-container {
   padding-top: 9vh;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -441,9 +441,7 @@
     width: 15%;
     transform: rotate(15deg);
   }
-  .contacto-container{
-    height: var(--nav-height);
-  }
+  
   .get-in-touch {
     max-width: 111.11vw;
     margin: 6.94vw auto;
