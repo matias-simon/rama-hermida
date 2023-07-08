@@ -57,7 +57,7 @@
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28250, 250, 250, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-.switch{
+.switch {
   cursor: pointer;
 }
 
@@ -75,7 +75,6 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  
 }
 .row-mobile {
   display: none;
@@ -225,7 +224,6 @@
   background-image: url(./IMG/black-background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
 .contacto-container {
   padding-top: 9vh;
@@ -287,7 +285,7 @@
   cursor: pointer;
   transition: background-color 0.4s;
 }
-.submit-btn:hover{
+.submit-btn:hover {
   background-color: #fafafa;
   color: #000;
 }
@@ -321,8 +319,9 @@
   }
   .logo {
     width: 40%;
+    margin: 0 auto;
+    
   }
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -343,6 +342,7 @@
 
   .logo {
     width: 50%;
+    margin: 0 auto;
   }
 
   .navbar {
@@ -440,7 +440,7 @@
     width: 15%;
     transform: rotate(15deg);
   }
-  
+
   .get-in-touch {
     max-width: 111.11vw;
     margin: 6.94vw auto;
@@ -455,7 +455,7 @@
     padding-bottom: 6.67vw;
     color: #fafafa;
   }
-  
+
   .contact-form .form-field {
     position: relative;
     margin: 4.44vw 0;
@@ -475,7 +475,7 @@
   .form-label {
     color: #fafafa;
   }
-  
+
   .contact-form .submit-btn {
     text-align: center;
     display: inline-block;
@@ -483,18 +483,18 @@
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.28vw;
-    font-size:4vw;
+    font-size: 4vw;
     padding: 1.11vw 2.22vw;
     border: none;
     width: 27.78vw;
     cursor: pointer;
     transition: background-color 0.4s;
   }
-  .submit-btn:hover{
+  .submit-btn:hover {
     background-color: #fafafa;
     color: #000;
   }
-  
+
   .form-switch {
     color: #fafafa;
   }
